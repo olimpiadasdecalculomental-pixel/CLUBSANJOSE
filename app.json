@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Super App Expo 58",
+    "slug": "super-app-expo-58-esquema2",
+    "version": "58.0.0",
+    "orientation": "portrait",
+    "icon": "./logo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050A14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.orbe.superapp58"
+    },
+    "android": {
+      "package": "com.orbe.superapp58",
+      "adaptiveIcon": {
+        "foregroundImage": "./logo.png",
+        "backgroundColor": "#050A14"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN",
+        "ACCESS_WIFI_STATE"
+      ]
+    }
+  }
+}
